@@ -41,20 +41,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-## Getting all available voices
-If you want to get all available voices add the following code in the Main-method and call it after the try{.
-
-```
-private static void getAvailableVoices() {
-	System.out.println("Available voices");
-	TextToSpeech tts = new TextToSpeech();
-	Collection<Voice> availableVoices = tts.getAvailableVoices();
-	for (Voice voice : availableVoices) {
-		System.out.println(voice.getName());
-	}
-}
-```
-
+## Start as service
 Copy the script
 ```
 sudo cp /home/pi/reminder/MedicationReminder.service /etc/systemd/system/MedicationReminder.service
@@ -69,6 +56,21 @@ Check status
 ```
 systemctl status MedicationReminder
 ```
+
+## Getting all available voices
+If you want to get all available voices add the following code in the Main-method and call it after the try{.
+
+```
+private static void getAvailableVoices() {
+	System.out.println("Available voices");
+	TextToSpeech tts = new TextToSpeech();
+	Collection<Voice> availableVoices = tts.getAvailableVoices();
+	for (Voice voice : availableVoices) {
+		System.out.println(voice.getName());
+	}
+}
+```
+
 
 ## Disclaimer
 I developed this programm as an open source project, there are no warranties whatsoever, if you use this programm it´s at your own risk.
