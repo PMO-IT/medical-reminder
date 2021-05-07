@@ -11,10 +11,10 @@ The CSV-config file
 This "data.csv" file is suppose to be in the user-directory (user.dir) / resources
 
 Example
+```
 Hour,Minute,Second,Repeatrate,Phrase,Voice
-
 14,00,00,10000,notification-msg,bits3-hsmm
-
+```
 If the set time has already passed, the timer will start on the following day.
 
 The data.csv has to be in /resources folder not in the pi home folder.
