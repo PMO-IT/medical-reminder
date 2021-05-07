@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # medical-reminder
 A Java based text-to-speech reminder to take your medicine.
 
