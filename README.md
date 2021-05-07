@@ -77,4 +77,6 @@ private static void getAvailableVoices() {
 ## Disclaimer
 I developed this programm as an open source project, there are no warranties whatsoever, if you use this programm it´s at your own risk.
 
-
+## Contact
+[@Keeper_pmo](https://twitter.com/Keeper_pmo)  
+[linkedin](https://www.linkedin.com/in/pascal-moll-14980520b/)
