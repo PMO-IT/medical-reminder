@@ -4,7 +4,7 @@
 A Java based text-to-speech reminder to take your medicine.
 
 # Description
-Both my grandparents live in their own home and need to take their medication regularly. As they sometimes forget to take their medication we often have to remind them to take it. Due to the pandemic we couldnt visit them regularly and hence could not remind them to take their medication in person. Also both dont own a smartphone. To solve this problem I wrote a medication reminder. The programm uses speech to text to remind them at specific times each day. To make things more clear I implemented the option to use different voices depending who is the target person. 
+Both my grandparents live in their own home and need to take their medication regularly. As they sometimes forget to take their medication we often have to remind them to take it. Due to the pandemic we couldnt visit them regularly and hence could not remind them to take their medication in person. Also both dont own a smartphone. To solve this problem I wrote a medication reminder. The programm uses speech to text to remind them at specific times each day. To make things more clear I implemented the option to use different voices depending who is the target person. I run the programm on an Raspberry Pi 3.
 
 
 ## Config
