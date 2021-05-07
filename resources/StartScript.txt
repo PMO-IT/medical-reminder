@@ -1,0 +1,9 @@
+[Unit]
+Description=MedicationReminder service with systemd
+
+[Service]
+ExecStart=/usr/bin/java -jar /home/pi/reminder/MedicationReminder.jar
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
