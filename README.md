@@ -10,7 +10,7 @@ The CSV-config file
 
 This "data.csv" file is suppose to be in the user-directory (user.dir) / resources
 
-Example
+###Example
 ```
 Hour,Minute,Second,Repeatrate,Phrase,Voice
 14,00,00,10000,notification-msg,bits3-hsmm
