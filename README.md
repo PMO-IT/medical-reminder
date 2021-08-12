@@ -73,6 +73,15 @@ private static void getAvailableVoices() {
 }
 ```
 
+## Update
+The current MaryTTS repository seems to be not working. You can download the files manually via https://github.com/marytts/marytts/releases/tag/v5.2
+Make sure you alter the maven POM accordingly.
+
+You need the following files:
+- marytts-runtime-5.2-jar-with-dependencies.jar
+- marytts-lang-de-5.2.jar (or you own language)
+- the voices you want to use
+
 
 ## Disclaimer
 I developed this programm as an open source project, there are no warranties whatsoever, if you use this programm it´s at your own risk.
